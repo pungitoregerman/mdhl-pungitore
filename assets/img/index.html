@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+
+    <form action="./show_data.html">
+        <fieldset>
+            <legend>Datos Personales</legend>
+           <!-- Primer Forma -->
+            <label for="name">Nombre: </label>
+            <input id="name" name="name" type="text">
+
+            <!--  
+            <label for="fname">Apellido: </label>
+            <input id="fname" type="text"> -->
+
+            <!-- Segunda Forma -->
+                <label >Apellido
+                    <input type="text">
+                </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label>Femenino <input  type="radio" name="sexo" value="f"></label>
+            <label>Masculino <input type="radio" name="sexo"  value="m"></label>       
+        </fieldset>
+        
+    
+        <fieldset>
+            <label>
+                <input type="checkbox" name="gustos" value="hocolate">chocolate
+            </label>
+
+            <label>
+                <input type="checkbox" name="gustos" value="frutilla">frutilla
+            </label>
+
+            <label>
+                <input type="checkbox" name="gustos" value="limon">limon
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <input type="color">
+            <input type="email">
+            <input type="text" >
+
+            <label>
+            <input type="number"
+            name="numero" max="5" min="1">
+            numero
+            </label>
+            
+
+            <label>
+                Fecha de nacimiento:
+                <input type="date" name="nacimiento">
+            </label>
+
+        
+
+        </fieldset>
+    
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
