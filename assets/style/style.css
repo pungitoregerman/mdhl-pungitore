@@ -1,0 +1,322 @@
+*:not(dd, ol, ul) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 25vh;
+  background-image: url('../img/Captura.PNG');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  object-fit: contain;
+}
+
+
+h1 ,h2 {
+  color: black;
+  text-shadow: red 0.1em 0.1em 0.2em;
+}
+/* FIN HEADER */
+
+/* NAV */
+nav {
+  background-color: black;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  padding: 1px;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: rgb(7, 101, 243);
+  text-decoration: none;
+  color: white;
+  margin: 3px;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+/* FIN NAV */
+
+/* MAIN */
+main {
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url("../img/backgroundbody.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: space-around;
+}
+
+.upcoming-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upcoming-events-card {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(173, 177, 181);
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+main section {
+  width: 550px;
+}
+
+.figureLogo {
+  margin-top: 30px;
+  width: 15%;
+  height: 40%;
+}
+.figureHockey {
+  margin-top: 30px;
+  width: 35%;
+  height: 60%;
+}
+
+.logoTeam {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageHockey {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 130px;
+}
+
+.image2rules{
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 130px;
+}
+  
+
+/* FIN MAIN */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(173, 177, 181);
+  color: black;
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  bottom: 10px;
+}
+
+footer h2 {
+  color: black;
+  text-shadow: none;
+}
+/* FIN FOOTER */
+
+/* TABLE  GAME INFORMATION*/
+caption {
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  color: black;
+  border-collapse: collapse;
+  margin: 5px;
+}
+
+tbody tr {
+  background-color: rgb(173, 177, 181);
+  text-align: center;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+}
+/* FIN TABLE GAME INFORMATION */
+
+/* LISTA DD GAME INFORMATION */
+.listGameInformation {
+  width: 450px;
+  height: 200px;
+  background-color: rgb(173, 177, 181);
+  border: 2px solid rgb(7, 101, 243);
+  border-radius: 5px;
+  margin: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.listGameInformation span {
+  font-weight: bold;
+  font-family: italic;
+}
+
+.listGameInformation p {
+  margin: 3px;
+}
+
+.listGameInformation {
+  margin-top: 70px;
+}
+
+.listGameInformation dl dt {
+  font-weight: bold;
+}
+/* FIN LISTA DD GAME INFORMATION */
+
+/* TABLAS RULES */
+
+.dlRules,
+.olPrincipal,
+.dlRulesAllPlay {
+  width: 350px;
+  background-color: rgb(173, 177, 181);
+  border: 2px solid rgb(7, 101, 243);
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.IHFRules h3 {
+  text-align: left;
+}
+
+.dlRules dl dt,
+.dlRulesAllPlay dl dt {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bolder;
+}
+
+.olIndexada {
+  list-style-type: lower-latin;
+}
+
+.dlRulesAllPlay ul li {
+  list-style-type: circle;
+}
+
+/* FIN TABLAS RULES */
+
+
+/* MAPAS */
+.maps{
+  width: 100px;
+  height: 100px;
+  border: 0; 
+}
+/* FIN MAPAS */
+
+/* FORMULARIOS */
+form h4,p{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.container-form{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.labelTwo{
+  margin-left: 5rem;
+}
+
+form fieldset{
+  background-color: transparent;
+  border-color: transparent;
+  width: 40rem;
+  justify-content: space-evenly;
+  margin: 3px;
+}
+form{
+  width: 700px;
+  padding: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.legendClosestSchool{
+  display: flex;
+  margin: 3px;
+  background-color: transparent;
+  border-color: transparent;
+  text-align: left;
+  font-size: bold;
+}
+.forms-container{
+background-color: rgb(173, 177, 181);
+}
+
+.imageRegistration{
+  width: 250px;
+}
+
+label{
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+  max-width: 100%;
+}
+
+#inputButton{
+  margin-left: 15rem;
+  width: 6rem;
+  height: 4rem;
+  border:none;
+  border-radius: 0.3rem;
+  background: linear-gradient(to right, #4c4c53, #473943);
+  color: white;
+}
+/* FIN FORMULARIOS */
